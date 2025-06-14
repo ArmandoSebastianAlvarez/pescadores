@@ -10825,14 +10825,43 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* quienes somos */
-.contenedor {
-  display: inline-block;  
-}
-
 
 /* footer aplicaciones */
 .container-aplicaciones{
   display: flex;
   justify-content: space-between;
+}
+/* tarjetas de quienes somos */
+.tarjetas--container{
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+  gap: 40px;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+}
+.tarjetas--container img {
+  height: 100%;
+}
+/* productos */
+.pesca-container{
+  display: flex;
+}
+.sidebar{
+  width: 250px;
+  max-height: 1000%;
+  background-color: #084298;
+  padding: 20px;
+}
+.sidebar ul{
+  padding: 20px;
+  background-color: #0dcaf0;
+  list-style: none;
+}
+.sidebar li{
+  padding: 20px;
+
 }
